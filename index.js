@@ -137,8 +137,8 @@ Hikari.version = [ 2, 2140, 12 ]
 		timeoutMs: 30 * 1000
 	})
 	fs.writeFileSync(`./${setting.sessionName}.json`, JSON.stringify(Hikari.base64EncodedAuthInfo(), null, '\t'))
-    Hikari.updateProfileName('Fans Manik')
-    Hikari.setStatus('Babunya Arya Manik\n⚠️AUTO REJECT CALL⚠️\n\nJangan telepon bot. ☎️\nSanksi: *❎ SOFT BLOCK*')
+    Hikari.updateProfileName('KNBOT')
+    Hikari.setStatus('WARNING KNBOT\n⚠️AUTO REJECT CALL⚠️\n\nJangan telepon bot. ☎️\nSanksi: *❎ SOFT BLOCK*')
    
 	
 	//AutoRejectCallFunction
